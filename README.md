@@ -1,7 +1,5 @@
 # HexSoftwares_Project_Exploratory-Data-Analysis.
 
-# HexSoftwares Project: Exploratory Data Analysis and House Price Prediction
-
 ## Project Overview
 
 This repository contains two distinct data analysis projects:
