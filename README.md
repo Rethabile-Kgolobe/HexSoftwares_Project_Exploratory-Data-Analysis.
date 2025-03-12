@@ -32,11 +32,11 @@ The Iris dataset includes the following features:
     *   The first few rows of the dataset were displayed to get a sense of the data.
     *   Descriptive statistics (mean, median, standard deviation, etc.) were calculated for each numerical feature to understand their distributions.
     *   The data types of each column were checked to ensure they were appropriate.
-    *   Checked the number of rows and columns in dataset.
+    *   Checked the number of rows and columns in the dataset.
 3.  **Data Cleaning:**
 
     *   Checked for missing values using `.isnull().sum()`. No missing values were found.
-    *   Removed the `Id` column as it is not relevant for analysis.
+    *   I removed the `Id` column as it is irrelevant to the analysis.
     *   Checked for duplicate entries. Duplicates were dropped to ensure data quality.
 4.  **Exploratory Data Analysis (EDA):**
 
@@ -59,15 +59,13 @@ The Iris dataset includes the following features:
 *   **Species Differentiation:** The Iris species can be relatively well separated using petal measurements (length and width). Setosa is notably distinct from Versicolor and Virginica.
 *   **Feature Correlations:**
 
-    *   Strong positive correlations exist between petal length and petal width. This suggests that as petal length increases, petal width also tends to increase.
+    *   Strong positive correlations exist between petal length and petal width. This suggests that as petal length increases, petal width also increases.
     *   Sepal length and sepal width show a weaker correlation compared to petal dimensions.
 *   **Data Distributions:**
 
     *   Petal length and petal width exhibit apparent differences across the three species, making them good candidates for classification.
     *   Sepal width has more overlap between the species, making it a less reliable feature for distinguishing between them.
-*   **Outliers:**
-
-    *   Box plots revealed some outliers in sepal width, indicating some flowers with unusually large or small sepal widths compared to the rest of the dataset.
+    *   
 *   **Observations on Species:**
 
     *   *Iris setosa* tends to have smaller petal lengths and widths but larger sepal widths.
@@ -78,11 +76,8 @@ The Iris dataset includes the following features:
 
 *   **Pairplot:** Illustrates the relationships between all pairs of features, with different colors representing different species.
 
-    (Ideally, you would embed the pair plot image here)
-
 *   **Correlation Heatmap:** Displays the correlation coefficients between numerical features. Darker colors indicate stronger correlations (positive or negative).
 
-    (Ideally, you would embed the heatmap image here)
 
 ### Conclusion
 
@@ -148,7 +143,7 @@ Key features in the dataset include:
 
 *   One-hot encoding of categorical variables significantly expands the feature space.
 *   Scaling numerical features improves the performance and stability of linear regression models.
-*   The linear regression model achieved a sure MAE, indicating the average absolute difference between predicted and actual sale prices.  *This needs to be replaced with the actual MAE you observed*.
+*   The linear regression model achieved a sure MAE, indicating the average absolute difference between predicted and actual sale prices. 
 *   The Lasso Regression model was added to reduce the impact of less relevant features on the overall model and provided an improved MAE value.
 
 ### Model Performance
